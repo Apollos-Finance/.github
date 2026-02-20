@@ -21,16 +21,16 @@ In the current DeFi landscape, liquidity providers are often caught between two 
 
 The Apollos Finance protocol is split into four specialized layers, each serving a critical role in our "Intelligence-Driven" architecture:
 
-### 🔗 [apollos-sc](https://github.com/ApollosFinance/apollos-sc) (The Core)
+### 🔗 [apollos-sc](https://github.com/Apollos-Finance/apollos-sc) (The Core)
 The decentralized heart of the protocol. Contains the **Hybrid ERC4626 Vaults**, the **CCIP Receiver** logic for cross-chain automation, and the **LVRHook** for Uniswap V4. Built with **Foundry** for maximum reliability and performance.
 
-### 🧠 [apollos-cre](https://github.com/ApollosFinance/apollos-cre) (The Off-Chain Brain)
+### 🧠 [apollos-cre](https://github.com/Apollos-Finance/apollos-cre) (The Off-Chain Brain)
 Powered by the **Chainlink Runtime Environment (CRE)**. These serverless workflows orchestrate our most complex logic—AI-driven risk classification, automated rebalancing, and precise NAV accounting—without relying on centralized backends.
 
-### 🛰️ [apollos-be](https://github.com/ApollosFinance/apollos-be) (The Intelligence Hub)
+### 🛰️ [apollos-be](https://github.com/Apollos-Finance/apollos-be) (The Intelligence Hub)
 A high-performance observability and monitoring layer. It bridges on-chain events with off-chain AI reasoning, providing **human-readable transparency logs** and real-time market divergence analysis.
 
-### 🏛️ [apollos-fe](https://github.com/ApollosFinance/apollos-fe) (The Command Center)
+### 🏛️ [apollos-fe](https://github.com/Apollos-Finance/apollos-fe) (The Command Center)
 A sophisticated, high-fidelity dashboard built with **Next.js 15** and **Wagmi**. It provides users with deep insights into their positions, real-time yield charts, and a guided cross-chain bridging interface.
 
 ---
@@ -53,7 +53,7 @@ A sophisticated, high-fidelity dashboard built with **Next.js 15** and **Wagmi**
 Apollos Finance is more than a yield protocol; it's an experiment in combining **Decentralized Infrastructure** with **Artificial Intelligence** to create a safer, more efficient financial future.
 
 *   **Build with us:** Explore the repositories above.
-*   **Learn more:** Check out our integrated documentation in the [frontend repo](https://github.com/ApollosFinance/apollos-fe).
+*   **Learn more:** Check out our integrated documentation in the [frontend repo](https://github.com/Apollos-Finance/apollos-fe//tree/main/content/docs).
 
 ---
 *Built with 🔥 to make DeFi smarter, safer, and human-readable.*
