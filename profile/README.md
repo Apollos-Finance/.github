@@ -1,7 +1,7 @@
 # 🏛️ Apollos Finance
 ### The Autonomous Hedge Fund System
 
-![Apollos Finance Banner](Banner.png)
+![Apollos Finance Banner](OG-Banner.jpeg)
 
 Welcome to the official home of **Apollos Finance**, a decentralized yield protocol built on **Arbitrum** and **Base**. Apollos Finance pioneers the next generation of DeFi by integrating institutional-grade risk management with seamless cross-chain accessibility.
 
