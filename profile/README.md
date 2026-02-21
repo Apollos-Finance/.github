@@ -1,5 +1,5 @@
 # 🏛️ Apollos Finance
-### The Cross-Chain, LVR-Protected, & Linearized Yield Protocol.
+### The Autonomous Hedge Fund System
 
 ![Apollos Finance Banner](Banner.png)
 
