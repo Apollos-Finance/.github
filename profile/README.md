@@ -53,7 +53,7 @@ A sophisticated, high-fidelity dashboard built with **Next.js 15** and **Wagmi**
 Apollos Finance is more than a yield protocol; it's an experiment in combining **Decentralized Infrastructure** with **Artificial Intelligence** to create a safer, more efficient financial future.
 
 *   **Build with us:** Explore the repositories above.
-*   **Learn more:** Check out our integrated documentation in the [frontend repo](https://github.com/Apollos-Finance/apollos-fe//tree/main/content/docs).
+*   **Learn more:** Check out our integrated documentation in the [Docs](https://apollos-finance.vercel.app/docs).
 
 ---
 *Built with 🔥 to make DeFi smarter, safer, and human-readable.*
