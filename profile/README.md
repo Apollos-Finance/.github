@@ -38,7 +38,7 @@ A sophisticated, high-fidelity dashboard built with **Next.js 15** and **Wagmi**
 | :--- | :--- |
 | **Blockchain** | Solidity, Foundry, Arbitrum, Base |
 | **Interoperability** | Chainlink CCIP |
-| **Computation** | Chainlink Workflows (CRE) |
+| **Computation** | Apollos Backend |
 | **AI Integration** | Google Gemini 1.5 Pro/Flash |
 | **Liquidity Layer** | Uniswap V4 (Hooks), Aave V3 (Credit Delegation) |
 | **Frontend** | Next.js 15, Wagmi v2, Framer Motion, Tailwind CSS |
