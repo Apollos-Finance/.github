@@ -24,9 +24,6 @@ The Apollos Finance protocol is split into four specialized layers, each serving
 ### 🔗 [apollos-sc](https://github.com/Apollos-Finance/apollos-sc) (The Core)
 The decentralized heart of the protocol. Contains the **Hybrid ERC4626 Vaults**, the **CCIP Receiver** logic for cross-chain automation, and the **LVRHook** for Uniswap V4. Built with **Foundry** for maximum reliability and performance.
 
-### 🧠 [apollos-cre](https://github.com/Apollos-Finance/apollos-cre) (The Off-Chain Brain)
-Powered by the **Chainlink Runtime Environment (CRE)**. These serverless workflows orchestrate our most complex logic—AI-driven risk classification, automated rebalancing, and precise NAV accounting—without relying on centralized backends.
-
 ### 🛰️ [apollos-be](https://github.com/Apollos-Finance/apollos-be) (The Intelligence Hub)
 A high-performance observability and monitoring layer. It bridges on-chain events with off-chain AI reasoning, providing **human-readable transparency logs** and real-time market divergence analysis.
 
