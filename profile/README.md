@@ -76,7 +76,7 @@ A sophisticated dashboard for managing cross-chain leveraged positions.
 ## 🚀 Join the Mission
 
 Apollos Finance is more than a yield protocol; it's an experiment in combining **Decentralized Infrastructure** with **Artificial Intelligence** to create a safer, more efficient, and truly human-readable financial future.
-*   **Learn more:** Check out our integrated documentation in the [Docs](https://apollos-finance.vercel.app/docs).
+*   **Learn more:** Check out our integrated documentation in the [Docs](https://apollos-fi.vercel.app/docs).
 
 ---
 *Built with 🔥 by Apollos Finance Team to make DeFi smarter, safer, and human-readable.*
