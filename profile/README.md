@@ -12,7 +12,7 @@ Welcome to the official home of **Apollos Finance**, a decentralized yield proto
 In the current DeFi landscape, liquidity providers are often caught between two fires: **Impermanent Loss (IL)** and **Loss-Versus-Rebalancing (LVR)**. Apollos Finance solves this through a multi-layered "Intelligence" approach:
 
 *   **📈 Linearized Yield Engine:** High-performance 2x leveraged vaults that utilize **Aave V3 Credit Delegation** to neutralize price exposure, transforming market volatility into consistent delta-neutral yield.
-*   **⚔️ Active LVR Protection:** Real-time LVR protection via  **Uniswap V4 Hooks** and **Chainlink CRE**. Our "Reactive Defender" uses **Gemini AI** to detect toxic arbitrage flow in real-time and dynamically adjusts swap fees to protect LP profit.
+*   **⚔️ Active LVR Protection:** Real-time LVR protection via **Uniswap V4 Hooks** and **Chainlink CRE**. Our "Reactive Defender" uses **Gemini AI** to detect toxic arbitrage flow in real-time and dynamically adjusts swap fees to protect LP profit.
 *   **📊 Predictive Risk Analytics (VaR):** Beyond static data, Apollos provides **Value at Risk (VaR)** scores. Calculated via decentralized historical simulation, this gives users a real-time percentage estimate of potential hourly losses under extreme conditions.
 *   **🛡️ Autonomous Solvency Audit:** A persistent **Circuit Breaker** system that monitors collateral-to-debt ratios 24/7. It can automatically pause borrowing or entire vaults to prevent liquidation during black-swan events.
 *   **🧠 AI-Powered Transparency:** Our **Guardian Logs** translate complex technical events (rebalances, fee spikes, solvency audits) into natural language using AI, ensuring users always know the "Why" behind protocol movements.
@@ -36,13 +36,14 @@ The decentralized heart of the protocol, managing assets, leverage, and liquidit
 *   **GenericWorkflowReceiver.sol:** A secure, decentralized security gateway that validates and routes authenticated reports from the **Chainlink DON**.
 
 ### 🧠 [apollos-cre](https://github.com/ApollosFinance/apollos-cre) (The Decentralized Brain)
-Our "Off-Chain Intelligence Hub" powered by **Chainlink Runtime Environment (CRE)**.
-*   **The Defender:** Event-driven risk classifier that responds to "Whale Swaps" and volatility spikes by triggering hook protections.
-*   **The Auditor:** Continuous solvency monitor that calculates BPS-based health ratios and manages automated circuit breakers.
-*   **The Accountant:** Hybrid NAV calculator that synthesizes on-chain balances and off-chain data for precise share pricing.
-*   **The Strategist:** Deterministic leverage rebalancer that maintains the target 2x risk profile through automated Aave interactions.
-*   **The Risk Analyst:** Calculates 95% Confidence VaR using historical Binance data and real-time vault leverage.
-*   **The Bridge Manager:** Optimizes cross-chain efficiency by batching deposits and monitoring CCIP message status.
+Our "Off-Chain Intelligence Hub" powered by the **Chainlink Runtime Environment (CRE)**. We deploy a fleet of 7 specialized, decentralized workflows that form the operational mind of the protocol:
+*   **⚔️ The Defender (LVR Protection):** An event-driven risk classifier. It listens to Uniswap V4 swap events in real-time, fetches Binance volatility data, and queries **Gemini AI**. If toxic arbitrage is detected, it instantly triggers the LVRHook to dynamically raise swap fees.
+*   **🛡️ The Auditor (Circuit Breaker):** An autonomous solvency monitor. Running on a strict cron schedule, it calculates high-precision Aave V3 collateral-to-debt ratios. It enforces 3 severity levels (Warn, Critical, Emergency) to automatically pause vault borrowing or entirely halt operations if health factors plummet.
+*   **📊 The VaR Calculator (Risk Analyst):** An institutional-grade risk simulator. It fetches historical market Klines, executes a 95% Confidence Historical Simulation, adjusts the risk against the vault's real-time leverage, and publishes the resulting Basis Points (BPS) risk score securely on-chain.
+*   **⚖️ The Strategist (Rebalancer):** The deterministic leverage engine. It constantly monitors the optimal 2x risk profile. If Aave Health Factors stray out of safe bounds, it autonomously executes complex on-chain rebalancing operations (leveraging up or de-leveraging).
+*   **🧮 The Accountant (NAV Pricer):** The truth-seeker for share pricing. It synthesizes the total asset value across raw token balances, active Uniswap V4 LP positions, and Aave V3 debt/collateral to publish a hyper-accurate Net Asset Value (NAV) to the DataFeedsCache.
+*   **🌉 The Bridge Manager:** The cross-chain logistics optimizer. It monitors adapter token balances on source chains (like Base) and automatically triggers CCIP "Store-and-Execute" batches to the Arbitrum Hub only when gas-efficient thresholds are met.
+*   **📢 The Reporter (AI Transparency):** The voice of the protocol. It ingests raw technical blockchain logs (e.g., rebalances, fee spikes), prompts **Gemini AI** to translate them into human-readable narratives, and posts these "Guardian Logs" to the backend for the frontend dashboard.
 
 ### 🛰️ [apollos-be](https://github.com/ApollosFinance/apollos-be) (The Observability Hub)
 A high-performance ingestion layer that bridges the decentralized DON with the user interface.
